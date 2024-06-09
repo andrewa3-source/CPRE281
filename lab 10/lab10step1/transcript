@@ -1,0 +1,21 @@
+# Compile of lab10step1.v was successful.
+vsim -gui work.lab10step1
+# vsim -gui work.lab10step1 
+# Start time: 08:42:20 on Nov 08,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab10step1(fast)
+add wave -position insertpoint  \
+sim:/lab10step1/IN \
+sim:/lab10step1/CLK \
+sim:/lab10step1/Q1 \
+sim:/lab10step1/Q2 \
+sim:/lab10step1/Q3 \
+sim:/lab10step1/Q4
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: andrewa3  Hostname: CO2042-04  ProcessID: 13252
+#           Attempting to use alternate WLF file "./wlft11dy7h".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft11dy7h
+quit -sim
+# End time: 08:42:56 on Nov 08,2022, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 4

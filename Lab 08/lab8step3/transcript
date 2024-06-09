@@ -1,0 +1,21 @@
+# Compile of lab8step3.v was successful.
+# Compile of mux4to12.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.lab8step3
+# vsim work.lab8step3 
+# Start time: 09:35:01 on Oct 25,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab8step3(fast)
+add wave -position insertpoint  \
+sim:/lab8step3/X3 \
+sim:/lab8step3/X2 \
+sim:/lab8step3/X1 \
+sim:/lab8step3/X0 \
+sim:/lab8step3/Xc1 \
+sim:/lab8step3/Xc2 \
+sim:/lab8step3/Xc3 \
+sim:/lab8step3/S \
+sim:/lab8step3/F
+do shifter.do
+# End time: 09:39:20 on Oct 25,2022, Elapsed time: 0:04:19
+# Errors: 0, Warnings: 5

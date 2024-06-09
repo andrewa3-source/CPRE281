@@ -1,0 +1,15 @@
+|price
+w0 => always0.IN0
+w0 => always0.IN0
+w0 => always0.IN0
+w1 => always0.IN1
+w1 => always0.IN1
+w1 => always0.IN1
+x0 <= always0.DB_MAX_OUTPUT_PORT_TYPE
+x1 <= always0.DB_MAX_OUTPUT_PORT_TYPE
+x2 <= x2.DB_MAX_OUTPUT_PORT_TYPE
+x3 <= always0.DB_MAX_OUTPUT_PORT_TYPE
+x4 <= x4.DB_MAX_OUTPUT_PORT_TYPE
+x5 <= x5.DB_MAX_OUTPUT_PORT_TYPE
+
+

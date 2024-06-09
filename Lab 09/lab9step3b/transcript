@@ -1,0 +1,12 @@
+# Compile of lab9step3b.v was successful.
+vsim -gui work.lab9step3b
+# vsim -gui work.lab9step3b 
+# Start time: 09:06:32 on Nov 01,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab9step3b(fast)
+add wave -position insertpoint  \
+sim:/lab9step3b/D \
+sim:/lab9step3b/CLK \
+sim:/lab9step3b/Q \
+sim:/lab9step3b/QN
+do lab9step2and3.do

@@ -1,0 +1,81 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2022.2/examples
+T_opt
+!s110 1667308153
+Vlf0l4YY[UE2SZni6zgN3U2
+04 10 4 work lab9step1a fast 0
+=1-d08e7902fb67-63611a78-3c8-2490
+R0
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2022.2;75
+R1
+T_opt1
+!s110 1667309846
+VK20YAG40W9<@]CMWEcXaz3
+04 10 4 work lab9step1b fast 0
+=1-d08e7902fb67-63612114-2a8-12b0
+R0
+R2
+R3
+R4
+n@_opt1
+R5
+vlab9step1a
+!s110 1667309832
+!i10b 1
+!s100 3d<?96dkfdVL^=oRajFD33
+IZh980Uegg5HFO2BeH[2Ki1
+Z6 dU:/CPRE281/Lab 09/lab9step1
+w1667308032
+8U:/CPRE281/Lab 09/lab9step1/lab9step1a.v
+FU:/CPRE281/Lab 09/lab9step1/lab9step1a.v
+!i122 5
+L0 20 27
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2022.2;75
+r1
+!s85 0
+31
+!s108 1667309832.000000
+!s107 U:/CPRE281/Lab 09/lab9step1/lab9step1a.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab 09/lab9step1/lab9step1a.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vlab9step1b
+!s110 1667309833
+!i10b 1
+!s100 T_SA8aWP_eE1TgUlZclKK0
+I1O?4UR<5:0LMJKk`5EYT<1
+R6
+w1667309816
+8U:/CPRE281/Lab 09/lab9step1/lab9step1b.v
+FU:/CPRE281/Lab 09/lab9step1/lab9step1b.v
+!i122 6
+L0 20 33
+R7
+R8
+r1
+!s85 0
+31
+!s108 1667309833.000000
+!s107 U:/CPRE281/Lab 09/lab9step1/lab9step1b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab 09/lab9step1/lab9step1b.v|
+!i113 0
+R9
+R4

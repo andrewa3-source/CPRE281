@@ -1,0 +1,15 @@
+|dollarFSM
+W2 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+S1 => inst8.IN0
+S1 => inst4.IN0
+S0 => inst73.IN0
+S0 => inst18.IN1
+S0 => inst13.IN1
+S0 => inst5.IN4
+W1 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+W0 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+
+

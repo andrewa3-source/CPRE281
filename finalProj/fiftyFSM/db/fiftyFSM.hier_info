@@ -1,0 +1,15 @@
+|fiftyFSM
+W2 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+Clock => X.CLK
+Clock => Z.CLK
+Clock => Y.CLK
+S0 => inst32.IN0
+S0 => inst4.IN0
+S0 => inst29.IN0
+S1 => inst.IN0
+S1 => inst33.IN2
+S1 => inst27.IN4
+W1 <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+W0 <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+
+

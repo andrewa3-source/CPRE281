@@ -1,0 +1,22 @@
+# Compile of lab3step3.v was successful.
+vsim -gui work.lab3step3
+# vsim -gui work.lab3step3 
+# Start time: 09:28:30 on Sep 13,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab3step3(fast)
+add wave -position insertpoint  \
+sim:/lab3step3/A \
+sim:/lab3step3/F \
+sim:/lab3step3/C \
+sim:/lab3step3/G \
+sim:/lab3step3/W
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: andrewa3  Hostname: CO2042-20  ProcessID: 10468
+#           Attempting to use alternate WLF file "./wlftqiedwn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqiedwn
+do alarm.do
+# Cannot open macro file: alarm.do
+do alarm.do
+run 1600
+# Causality operation skipped due to absence of debug database file

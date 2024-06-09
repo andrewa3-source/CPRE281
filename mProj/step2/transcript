@@ -1,0 +1,38 @@
+vsim -gui work.step2
+# vsim -gui work.step2 
+# Start time: 09:20:32 on Oct 04,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.step2(fast)
+add wave -position insertpoint sim:/step2/*
+do miniproject.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'W' not found.
+# Error in macro ./miniproject.do line 1
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'W' not found.
+# 
+#     while executing
+# "force W 0 0, 1 400 -repeat 800"
+do miniproject.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'W' not found.
+# Error in macro ./miniproject.do line 1
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'W' not found.
+# 
+#     while executing
+# "force W 0 0, 1 400 -repeat 800"
+# Compile of step2.v was successful.
+do miniproject.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'W' not found.
+# Error in macro ./miniproject.do line 1
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'W' not found.
+# 
+#     while executing
+# "force W 0 0, 1 400 -repeat 800"
+# Compile of step2.v was successful.
+vsim -gui work.step2
+# End time: 09:24:31 on Oct 04,2022, Elapsed time: 0:03:59
+# Errors: 0, Warnings: 3
+# vsim -gui work.step2 
+# Start time: 09:24:31 on Oct 04,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.step2(fast)
+add wave -position insertpoint sim:/step2/*
+do miniproject.do

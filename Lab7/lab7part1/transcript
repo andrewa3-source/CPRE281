@@ -1,0 +1,19 @@
+# Compile of add_sub.v was successful.
+# Compile of adder_4bit.v was successful.
+# Compile of FA.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.FA
+# vsim -gui work.FA 
+# Start time: 08:09:06 on Oct 25,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.FA(fast)
+add wave -position insertpoint  \
+sim:/FA/Cin \
+sim:/FA/X \
+sim:/FA/Y \
+sim:/FA/Cout \
+sim:/FA/S
+do FA.do
+quit -sim
+# End time: 09:00:53 on Oct 25,2022, Elapsed time: 0:51:47
+# Errors: 0, Warnings: 7

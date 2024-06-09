@@ -1,0 +1,69 @@
+|lab10step3a
+A <= seven_seg_decoder:inst5.A
+CLRN => JKFF2:inst3.CLRN
+CLRN => JKFF2:inst2.CLRN
+CLRN => JKFF2:inst1.CLRN
+CLRN => JKFF2:inst.CLRN
+CLK => JKFF2:inst.CLK
+B <= seven_seg_decoder:inst5.B
+C <= seven_seg_decoder:inst5.C
+D <= seven_seg_decoder:inst5.D
+E <= seven_seg_decoder:inst5.E
+F <= seven_seg_decoder:inst5.F
+G <= seven_seg_decoder:inst5.G
+
+
+|lab10step3a|seven_seg_decoder:inst5
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+X3 => Decoder0.IN0
+X2 => Decoder0.IN1
+X1 => Decoder0.IN2
+X0 => Decoder0.IN3
+
+
+|lab10step3a|JKFF2:inst3
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab10step3a|JKFF2:inst2
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab10step3a|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab10step3a|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,20 @@
+# Compile of lab4step1.v failed with 16 errors.
+# Compile of lab4step1.v was successful with warnings.
+vsim -gui work.lab4step1
+# vsim -gui work.lab4step1 
+# Start time: 08:16:07 on Sep 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab4step1(fast)
+add wave -position insertpoint  \
+sim:/lab4step1/F \
+sim:/lab4step1/C \
+sim:/lab4step1/G \
+sim:/lab4step1/W \
+sim:/lab4step1/A
+do lab4step1.do
+do lab4step1.do
+exit
+# Project file U:/CPRE281/Lab 04/lab4step1.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 08:22:04 on Sep 20,2022, Elapsed time: 0:05:57
+# Errors: 0, Warnings: 5

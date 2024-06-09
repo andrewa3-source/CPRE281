@@ -1,0 +1,129 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "D1",
+					"strict" : false
+				},
+				{
+					"name" : "E1",
+					"strict" : false
+				},
+				{
+					"name" : "F1",
+					"strict" : false
+				},
+				{
+					"name" : "E2",
+					"strict" : false
+				},
+				{
+					"name" : "F2",
+					"strict" : false
+				},
+				{
+					"name" : "G2",
+					"strict" : false
+				},
+				{
+					"name" : "A2",
+					"strict" : false
+				},
+				{
+					"name" : "D2",
+					"strict" : false
+				},
+				{
+					"name" : "C2",
+					"strict" : false
+				},
+				{
+					"name" : "A1",
+					"strict" : false
+				},
+				{
+					"name" : "D3",
+					"strict" : false
+				},
+				{
+					"name" : "E3",
+					"strict" : false
+				},
+				{
+					"name" : "F3",
+					"strict" : false
+				},
+				{
+					"name" : "A3",
+					"strict" : false
+				},
+				{
+					"name" : "B4",
+					"strict" : false
+				},
+				{
+					"name" : "D4",
+					"strict" : false
+				},
+				{
+					"name" : "E4",
+					"strict" : false
+				},
+				{
+					"name" : "F4",
+					"strict" : false
+				},
+				{
+					"name" : "G4",
+					"strict" : false
+				},
+				{
+					"name" : "B5",
+					"strict" : false
+				},
+				{
+					"name" : "E5",
+					"strict" : false
+				},
+				{
+					"name" : "G5",
+					"strict" : false
+				},
+				{
+					"name" : "R0",
+					"strict" : false
+				},
+				{
+					"name" : "R1",
+					"strict" : false
+				},
+				{
+					"name" : "Dollar",
+					"strict" : false
+				},
+				{
+					"name" : "Quarter",
+					"strict" : false
+				},
+				{
+					"name" : "W",
+					"strict" : false
+				},
+				{
+					"name" : "ManClock",
+					"strict" : false
+				},
+				{
+					"name" : "fsmClock",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

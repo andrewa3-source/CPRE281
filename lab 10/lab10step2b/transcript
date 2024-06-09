@@ -1,0 +1,58 @@
+# Compile of lab10step2b.v was successful.
+vsim -gui work.lab10step2b
+# vsim -gui work.lab10step2b 
+# Start time: 09:09:47 on Nov 08,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab10step2b(fast)
+add wave -position insertpoint  \
+sim:/lab10step2b/EN \
+sim:/lab10step2b/CLK \
+sim:/lab10step2b/CLRN \
+sim:/lab10step2b/Q1 \
+sim:/lab10step2b/Q2 \
+sim:/lab10step2b/Q3 \
+sim:/lab10step2b/Q4 \
+sim:/lab10step2b/Q5
+force -freeze sim:/lab10step2b/EN 1'h1 0
+force -freeze sim:/lab10step2b/CLK 1'h0 0
+force -freeze sim:/lab10step2b/CLRN 1'h0 0
+run 100
+force -freeze sim:/lab10step2b/CLRN 1'h1 0
+run 25
+force -freeze sim:/lab10step2b/CLK 1'h1 0
+run 100
+force -freeze sim:/lab10step2b/CLK 1'h0 0
+run 20
+force -freeze sim:/lab10step2b/CLK 1'h1 0
+run 100
+force -freeze sim:/lab10step2b/CLK 1'h0 0
+run 20
+force -freeze sim:/lab10step2b/CLK 1'h1 0
+run 100
+force -freeze sim:/lab10step2b/CLK 1'h0 0
+run 20
+force -freeze sim:/lab10step2b/CLK 1'h1 0
+run 100
+do mydo
+# **** Error: ContextQ cmd: namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source.interior.cs.body.srcobj ContextChangeCB} sim
+# ****        bad window path name ".main_pane.source.interior.cs.body.srcobj.extra_f.timebar"
+# bad window path name ".main_pane.source.interior.cs.body.srcobj.extra_f.timebar"
+#     while executing
+# "pack $extra_widgets(exam_time) -side right"
+#     (method "::vsimwidgets::Srcobj::ContextChangeCB" body line 22)
+#     invoked from within
+# "::.main_pane.source.interior.cs.body.srcobj ContextChangeCB sim"
+#     (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source.interior.cs.body.srcobj ContextChangeCB} sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+do clkcycle
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab10step2b(fast)
+do clkcycle
+force -freeze sim:/lab10step2b/EN 1'h1 0
+do lab10counter.do

@@ -1,0 +1,3 @@
+stack post fix calculator
+slot machine
+look for finite state machine projects

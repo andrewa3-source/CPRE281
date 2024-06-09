@@ -1,0 +1,122 @@
+|regFile
+Out1 <= mux4to12:inst19.F
+Clock => inst.CLK
+Clock => inst2.CLK
+Clock => inst5.CLK
+Clock => inst6.CLK
+Clock => inst1.CLK
+Clock => inst4.CLK
+Clock => inst3.CLK
+Clock => inst7.CLK
+In1 => mux2_1:inst8.in2
+In1 => mux2_1:inst10.in2
+In1 => mux2_1:inst12.in2
+In1 => mux2_1:inst14.in2
+Enable => decoder24_behaviour1:inst18.en
+W1 => decoder24_behaviour1:inst18.a
+W0 => decoder24_behaviour1:inst18.b
+R1 => mux4to12:inst19.S1
+R1 => mux4to12:inst20.S1
+R0 => mux4to12:inst19.S0
+R0 => mux4to12:inst20.S0
+Out2 <= mux4to12:inst20.F
+In2 => mux2_1:inst9.in2
+In2 => mux2_1:inst11.in2
+In2 => mux2_1:inst13.in2
+In2 => mux2_1:inst15.in2
+
+
+|regFile|mux4to12:inst19
+W0 => F.DATAB
+W1 => F.DATAA
+W2 => F.DATAB
+W3 => F.DATAA
+S1 => F.OUTPUTSELECT
+S0 => F.OUTPUTSELECT
+S0 => F.OUTPUTSELECT
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|regFile|mux2_1:inst8
+in1 => out.DATAA
+in2 => out.DATAB
+select => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|regFile|decoder24_behaviour1:inst18
+en => y3.OUTPUTSELECT
+a => always0.IN0
+a => always0.IN0
+a => always0.IN0
+a => always0.IN0
+b => always0.IN1
+b => always0.IN1
+b => always0.IN1
+b => always0.IN1
+y3 <= y3.DB_MAX_OUTPUT_PORT_TYPE
+y2 <= <GND>
+y1 <= <GND>
+y0 <= <GND>
+
+
+|regFile|mux2_1:inst10
+in1 => out.DATAA
+in2 => out.DATAB
+select => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|regFile|mux2_1:inst12
+in1 => out.DATAA
+in2 => out.DATAB
+select => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|regFile|mux2_1:inst14
+in1 => out.DATAA
+in2 => out.DATAB
+select => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|regFile|mux4to12:inst20
+W0 => F.DATAB
+W1 => F.DATAA
+W2 => F.DATAB
+W3 => F.DATAA
+S1 => F.OUTPUTSELECT
+S0 => F.OUTPUTSELECT
+S0 => F.OUTPUTSELECT
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|regFile|mux2_1:inst9
+in1 => out.DATAA
+in2 => out.DATAB
+select => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|regFile|mux2_1:inst11
+in1 => out.DATAA
+in2 => out.DATAB
+select => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|regFile|mux2_1:inst13
+in1 => out.DATAA
+in2 => out.DATAB
+select => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|regFile|mux2_1:inst15
+in1 => out.DATAA
+in2 => out.DATAB
+select => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

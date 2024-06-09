@@ -1,0 +1,196 @@
+# Compile of FA.v was successful.
+# Compile of adder_4bit.v was successful.
+# Compile of add_sub.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.add_sub
+# vsim -gui work.add_sub 
+# Start time: 16:04:12 on Oct 21,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/Lab7/lab7part0/add_sub.v(64): Module 'part0' is not defined.
+#  For instance 'b2v_inst' at path 'add_sub'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 16:04:18 on Oct 21,2022, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 7
+vsim -gui work.add_sub
+# vsim -gui work.add_sub 
+# Start time: 16:04:46 on Oct 21,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/Lab7/lab7part0/add_sub.v(64): Module 'part0' is not defined.
+#  For instance 'b2v_inst' at path 'add_sub'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 16:04:51 on Oct 21,2022, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 1
+vsim -gui work.adder_4bit
+# vsim -gui work.adder_4bit 
+# Start time: 16:05:03 on Oct 21,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.adder_4bit(fast)
+add wave -position insertpoint sim:/adder_4bit/*
+do adder_4bit.do
+quit -sim
+# End time: 16:07:11 on Oct 21,2022, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 1
+vsim -gui work.FA
+# vsim -gui work.FA 
+# Start time: 16:07:20 on Oct 21,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.FA(fast)
+do FA.do
+add wave -position insertpoint sim:/FA/*
+do FA.do
+do FA.do
+quit -sim
+# End time: 16:13:12 on Oct 21,2022, Elapsed time: 0:05:52
+# Errors: 0, Warnings: 1
+vsim -gui work.FA
+# vsim -gui work.FA 
+# Start time: 16:13:22 on Oct 21,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.FA(fast)
+add wave -position insertpoint  \
+sim:/FA/Cin \
+sim:/FA/X \
+sim:/FA/Y \
+sim:/FA/Cout \
+sim:/FA/S
+do FA.do
+quit -sim
+# End time: 16:16:53 on Oct 21,2022, Elapsed time: 0:03:31
+# Errors: 0, Warnings: 1
+# Compile of FA.v was successful.
+# Compile of adder_4bit.v was successful.
+# Compile of add_sub.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.FA
+# vsim -gui work.FA 
+# Start time: 16:17:08 on Oct 21,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.FA(fast)
+add wave -position insertpoint  \
+sim:/FA/Cin \
+sim:/FA/X \
+sim:/FA/Y \
+sim:/FA/Cout \
+sim:/FA/S
+do FA.do
+quit -sim
+# End time: 16:21:08 on Oct 21,2022, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 2
+# Compile of FA.v failed with 1 errors.
+# Compile of adder_4bit.v was successful.
+# Compile of add_sub.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of FA.v was successful.
+# Compile of adder_4bit.v was successful.
+# Compile of add_sub.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.FA
+# vsim -gui work.FA 
+# Start time: 16:21:38 on Oct 21,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.FA(fast)
+add wave -position insertpoint  \
+sim:/FA/Cin \
+sim:/FA/X \
+sim:/FA/Y \
+sim:/FA/Cout \
+sim:/FA/S
+do FA.do
+quit -sim
+# End time: 16:23:36 on Oct 21,2022, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 3
+# Compile of FA.v was successful.
+# Compile of adder_4bit.v was successful.
+# Compile of add_sub.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.adder_4bit
+# vsim -gui work.adder_4bit 
+# Start time: 16:23:54 on Oct 21,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.adder_4bit(fast)
+add wave -position insertpoint  \
+sim:/adder_4bit/X3 \
+sim:/adder_4bit/Y3 \
+sim:/adder_4bit/X2 \
+sim:/adder_4bit/Y2 \
+sim:/adder_4bit/X1 \
+sim:/adder_4bit/Y1 \
+sim:/adder_4bit/X0 \
+sim:/adder_4bit/Y0 \
+sim:/adder_4bit/Cin \
+sim:/adder_4bit/S0 \
+sim:/adder_4bit/S1 \
+sim:/adder_4bit/S2 \
+sim:/adder_4bit/S3 \
+sim:/adder_4bit/Cout \
+sim:/adder_4bit/Ov
+do adder_4bit.do
+add wave -position insertpoint  \
+sim:/adder_4bit/X3 \
+sim:/adder_4bit/Y3 \
+sim:/adder_4bit/X2 \
+sim:/adder_4bit/Y2 \
+sim:/adder_4bit/X1 \
+sim:/adder_4bit/Y1 \
+sim:/adder_4bit/X0 \
+sim:/adder_4bit/Y0 \
+sim:/adder_4bit/Cin \
+sim:/adder_4bit/S0 \
+sim:/adder_4bit/S1 \
+sim:/adder_4bit/S2 \
+sim:/adder_4bit/S3 \
+sim:/adder_4bit/Cout \
+sim:/adder_4bit/Ov
+do adder_4bit.do
+do adder_4bit.do
+quit -sim
+# End time: 16:31:26 on Oct 21,2022, Elapsed time: 0:07:32
+# Errors: 0, Warnings: 2
+# Compile of FA.v was successful.
+# Compile of adder_4bit.v was successful.
+# Compile of add_sub.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.add_sub
+# vsim -gui work.add_sub 
+# Start time: 16:32:29 on Oct 21,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/Lab7/lab7part0/add_sub.v(64): Module 'part0' is not defined.
+#  For instance 'b2v_inst' at path 'add_sub'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 16:32:34 on Oct 21,2022, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 2
+# Compile of FA.v was successful.
+# Compile of adder_4bit.v was successful.
+# Compile of add_sub.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.add_sub
+# vsim -gui work.add_sub 
+# Start time: 16:37:23 on Oct 21,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.add_sub(fast)
+add wave -position insertpoint  \
+sim:/add_sub/Y0 \
+sim:/add_sub/Y1 \
+sim:/add_sub/Y2 \
+sim:/add_sub/Y3 \
+sim:/add_sub/X0 \
+sim:/add_sub/X1 \
+sim:/add_sub/X2 \
+sim:/add_sub/X3 \
+sim:/add_sub/Control \
+sim:/add_sub/Cout \
+sim:/add_sub/Overflow \
+sim:/add_sub/S3 \
+sim:/add_sub/S2 \
+sim:/add_sub/S1 \
+sim:/add_sub/S0
+do add_sub.do
+quit -sim
+# End time: 16:41:05 on Oct 21,2022, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 2

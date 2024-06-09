@@ -1,0 +1,46 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2022.2/examples
+T_opt
+!s110 1664893477
+VNNYz2Zc1?SQcL;C?F1LQA0
+04 5 4 work step2 fast 0
+=1-d08e7902fb67-633c4223-39c-2444
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2022.2;75
+vstep2
+!s110 1664893455
+!i10b 1
+!s100 Vd4K@JYm?@S1;z]>Oo]nP0
+I7c>WG3jGJ@8oB6CY8MMRW3
+dU:/CPRE281/mProj/step2
+w1664893408
+8U:/CPRE281/mProj/step2/step2.v
+FU:/CPRE281/mProj/step2/step2.v
+!i122 2
+L0 1 6
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2022.2;75
+r1
+!s85 0
+31
+!s108 1664893455.000000
+!s107 U:/CPRE281/mProj/step2/step2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/mProj/step2/step2.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

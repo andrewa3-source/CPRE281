@@ -1,0 +1,26 @@
+|step3
+B <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+W => step1:inst.W
+W => inst22.IN0
+X => step1:inst.X
+X => inst23.IN0
+Y => step1:inst.Y
+Y => inst27.IN1
+Z => step1:inst.Z
+Z => inst27.IN2
+
+
+|step3|step1:inst
+W => F.IN0
+W => F.IN0
+X => F.IN1
+X => F.IN1
+Y => F.IN1
+Y => F.IN1
+Y => F.IN0
+Z => F.IN1
+Z => F.IN1
+Z => F.IN1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
